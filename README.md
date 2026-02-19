@@ -113,7 +113,7 @@ FrontendBackend/
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/agnusjose/Al-Imtedad_Frontend-and-backend-Task
 cd FrontendBackend
 ```
 
@@ -127,7 +127,7 @@ npm install
 ### 3. Start the Backend Server
 
 ```bash
-npm run dev
+node server.js
 # Server runs on http://localhost:5000
 ```
 
@@ -254,13 +254,10 @@ These videos are streamed directly from Google's CDN (`commondatastorage.googlea
 
 - ✅ Clean animations and hover effects (card scaling, fade-ins, shimmer loading)
 - ✅ Full responsiveness (mobile, tablet, desktop)
-- ✅ Real-time status updates (playing/idle indicators with green dot animation)
-- ✅ Backend validations and error handling (ID validation, 404s, try-catch blocks)
 - ✅ SQLite database (bonus over in-memory/JSON storage)
 - ✅ Custom video player controls (progress bar, volume, play/pause)
 - ✅ Keyboard shortcuts (Space for play/pause, Escape to go back)
 - ✅ Glassmorphism effects (navbar, player controls)
-- ✅ Loading skeletons (shimmer animation while fetching data)
 
 ---
 
